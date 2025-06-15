@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DulceFacil.Aplication.DTO\DulceFacil.Aplication.DTO.csproj" />
+    <ProjectReference Include="..\DulceFacil.Aplication\DulceFacil.Aplication.csproj" />
+    <ProjectReference Include="..\DulceFacil.Domain.Models\DulceFacil.Domain.Models.csproj" />
+    <ProjectReference Include="..\DulceFacil.Domain.Services\DulceFacil.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>

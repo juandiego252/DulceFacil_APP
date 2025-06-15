@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DulceFacil.Domain.Models\DulceFacil.Domain.Models.csproj" />
+    <ProjectReference Include="..\DulceFacil.Domain.Services\DulceFacil.Domain.Services.csproj" />
+    <ProjectReference Include="..\DulceFacil.Infraestructure.DataAccess\DulceFacil.Infraestructure.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
