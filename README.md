@@ -4,7 +4,7 @@
 
 ## Base de Datos
 ![image](https://github.com/user-attachments/assets/04abc9b2-17c9-4445-81ac-b6c50763a7fd)
-![Static Badge](https://img.shields.io/badge/:badgeContent?logo=dotnet)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 
 
