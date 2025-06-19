@@ -30,13 +30,13 @@ public partial class DulceFacilContext : DbContext
 
     public virtual DbSet<EstadoEntrega> EstadoEntregas { get; set; }
 
-    public virtual DbSet<Incidencium> Incidencia { get; set; }
+    public virtual DbSet<Incidencia> Incidencia { get; set; }
 
     public virtual DbSet<Pedido> Pedidos { get; set; }
 
     public virtual DbSet<Producto> Productos { get; set; }
 
-    public virtual DbSet<Rutum> Ruta { get; set; }
+    public virtual DbSet<Ruta> Ruta { get; set; }
 
     public virtual DbSet<Sector> Sectors { get; set; }
 
@@ -252,7 +252,7 @@ public partial class DulceFacilContext : DbContext
             entity.Property(e => e.OrdenSecuencial).HasColumnName("Orden_Secuencial");
         });
 
-        modelBuilder.Entity<Incidencium>(entity =>
+        modelBuilder.Entity<Incidencia>(entity =>
         {
             entity.HasKey(e => e.IdIncidencia).HasName("PK__INCIDENC__3FF3AEAE831DE703");
 
@@ -342,7 +342,7 @@ public partial class DulceFacilContext : DbContext
             entity.Property(e => e.Volumen).HasColumnType("decimal(8, 3)");
         });
 
-        modelBuilder.Entity<Rutum>(entity =>
+        modelBuilder.Entity<Ruta>(entity =>
         {
             entity.HasKey(e => e.IdRuta).HasName("PK__RUTA__4851E68BB68F13E3");
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DulceFacil.Domain.Models.Entities;
 
-public partial class Incidencium
+public partial class Incidencia
 {
     public int IdIncidencia { get; set; }
 

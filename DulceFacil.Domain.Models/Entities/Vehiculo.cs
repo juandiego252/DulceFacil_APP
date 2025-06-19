@@ -19,5 +19,5 @@ public partial class Vehiculo
 
     public bool? GpsActivo { get; set; }
 
-    public virtual ICollection<Rutum> Ruta { get; set; } = new List<Rutum>();
+    public virtual ICollection<Ruta> Ruta { get; set; } = new List<Ruta>();
 }

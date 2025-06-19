@@ -27,7 +27,7 @@ public partial class Entrega
 
     public virtual Pedido IdPedidoNavigation { get; set; } = null!;
 
-    public virtual Rutum IdRutaNavigation { get; set; } = null!;
+    public virtual Ruta IdRutaNavigation { get; set; } = null!;
 
-    public virtual ICollection<Incidencium> Incidencia { get; set; } = new List<Incidencium>();
+    public virtual ICollection<Incidencia> Incidencia { get; set; } = new List<Incidencia>();
 }

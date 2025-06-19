@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DulceFacil.Domain.Models.Entities;
 
-public partial class Rutum
+public partial class Ruta
 {
     public int IdRuta { get; set; }
 

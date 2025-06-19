@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.ServiceModel;
+using System.Text;
+using System.Threading.Tasks;
+using DulceFacil.Domain.Models.Entities;
+
+namespace DulceFacil.Aplication.Services
+{
+    [ServiceContract]
+    public interface IDireccionService
+    {
+        [OperationContract]
+        Task AddDireccionAsync(Direccion direccion);
+
+        [OperationContract]
+        Task UpdateDireccionAsync(Direccion direccion);
+
+        [OperationContract]
+        Task DeleteDireccionAsync(int idDireccion);
+
+        [OperationContract]
+        Task<Direccion> GetDireccionByIdAsync(int idDireccion);
+
+        [OperationContract]
+        Task<IEnumerable<Direccion>> GetAllDireccionAsync();
+    }
+}
